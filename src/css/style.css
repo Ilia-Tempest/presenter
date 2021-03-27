@@ -18,9 +18,13 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.foto-reviews {
+    width: 100%;
+}
 .navigation {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     list-style: none;
     margin-top: 0;
 }
@@ -290,10 +294,11 @@ body {
 }
 .wrapper__image-two {
     position: absolute;
+    right: 50px;
     top: 0;
     z-index: -1;
     margin-top: 190px;
-    margin-left: 360px;
+    
 }
 
 .wrapper__card-two {
@@ -316,7 +321,7 @@ body {
     top: 0;
     z-index: -1;
     margin-top: 141px;
-    margin-left: 337px;
+    right: 50px;
 }
 
 .wrapper__card-four {
@@ -339,7 +344,7 @@ body {
     top: 0;
     z-index: -1;
     margin-top: 141px;
-    margin-left: 337px;
+    right: 50px;
 }
 
 .wrapper__card-six {
@@ -459,9 +464,13 @@ body {
 }
 .swiper-button-next {
     color: #C9C9C9;
+    margin-top: 28%;
+    margin-right: 40%;
 }
 .swiper-button-prev {
     color: #C9C9C9;
+    margin-top: 28%;
+    margin-left: 40%;
 }
 .swiper-pagination {
     color: #C9C9C9;
@@ -625,7 +634,7 @@ body {
     line-height: 24px;
 }
 .price {
-    background: url('/image/Rectangle1.png') center no-repeat;
+    background: url('../image/Rectangle1.png') center no-repeat;
     padding-bottom: 40px;
     position: relative;
 }
@@ -737,6 +746,8 @@ body {
     text-align: center;
     padding: 20px 180px;
     margin: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
     max-width: 520px;
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -764,6 +775,7 @@ body {
 .footer-nav {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -836,6 +848,10 @@ body {
 
 
 @media (max-width: 1440px) {
+    .reviews-right {
+        width: 50%;
+        margin-top: 30%;
+    }
     .container {
         max-width: 1050px;
     }
@@ -857,7 +873,7 @@ body {
         margin-left: 525px;
     }
     .wrapper__image-two {
-        margin-left: 435px;
+      
     }
     .wrapper__card-two {
         margin-left: 83px;
@@ -876,7 +892,7 @@ body {
         margin-left: 525px;
     }
     .wrapper__image-four {
-        margin-left: 435px;
+     
     }
 
     .wrapper__card-four {
@@ -896,7 +912,7 @@ body {
         margin-left: 525px;
     }
     .wrapper__image-six {
-        margin-left: 435px;
+      
     }
 
     .wrapper__card-six {
@@ -936,7 +952,7 @@ body {
     .hero__text__right {
         margin-left: 83px;
         padding-top: 236px;
-        width: 500px;
+        max-width: 500px;
     }
     .row-snake {
         width: auto;
@@ -966,7 +982,7 @@ body {
 
 
 
-@media (max-width: 1280px) {
+@media (max-width: 1320px) {
     .container {
         max-width: 950px;
     }
@@ -979,13 +995,13 @@ body {
     .hero__text__right {
         margin-left: 117px;
         padding-top: 205px;
-        width: 500px;
+        max-width: 500px;
     }
     .wrapper__card-one::before {
         margin-left: 476px;
     }
     .wrapper__image-two {
-        margin-left: 380px;
+ 
     }
     .wrapper__card-two::before {
         margin-left: -83px;
@@ -996,7 +1012,7 @@ body {
     }
 
     .wrapper__image-four {
-        margin-left: 380px;
+        
     }
     .wrapper__card-four::before {
         margin-left: -83px;
@@ -1007,7 +1023,7 @@ body {
     }
 
     .wrapper__image-six {
-        margin-left: 380px;
+     
     }
     .wrapper__card-six::before {
         margin-left: -83px;
@@ -1094,7 +1110,7 @@ body {
         font-size: 16px;
         margin-left: 57px;
         padding-top: 115px;
-        width: 415px;
+        max-width: 415px;
     }
     .video-hero {
         width: 466px;
@@ -1138,17 +1154,17 @@ body {
     .wrapper__image-two {
         width: 143px;
         margin-top: 217px;
-        margin-left: 290px;
+       
     }
     .wrapper__image-four {
         width: 151px;
         margin-top: 191px;
-        margin-left: 270px;
+    
     }
     .wrapper__image-six {
         width: 143px;
         margin-top: 185px;
-        margin-left: 283px
+     
     }
     .wrapper__card-one::before {
         margin-left: 425px;
@@ -1185,7 +1201,7 @@ body {
         width: auto;
     }
     .video-slaider {
-        width: 845px;
+        width: 90%;
         height: 477px;
     }
     .foto-reviews {
@@ -1261,7 +1277,7 @@ body {
         font-size: 16px;
         margin-left: 55px;
         padding-top: 115px;
-        width: 380px;
+        max-width: 380px;
     }
     .wrapper__image-one {
         margin-left: -57px;
@@ -1289,6 +1305,10 @@ body {
 
 
 @media (max-width: 862px) {
+    .reviews-right {
+        width: 50%;
+        margin-top: 50%;
+    }
     .container {
         max-width: 830px;
     }
@@ -1299,7 +1319,7 @@ body {
         font-size: 16px;
         margin-left: 31px;
         padding-top: 244px;
-        width: 402px;
+        max-width: 402px;
     }
     .video-hero {
         width: 426px;
@@ -1324,7 +1344,7 @@ body {
     .wrapper__image-two {
         width: 143px;
         margin-top: 146px;
-        margin-left: 278px;
+ 
     }
     .wrapper__card-three {
         width: 382px;
@@ -1340,7 +1360,7 @@ body {
     .wrapper__image-four {
         width: 151px;
         margin-top: 165px;
-        margin-left: 260px;
+    
     }
     .wrapper__card-five {
         width: 382px;
@@ -1356,7 +1376,7 @@ body {
     .wrapper__image-six {
         width: 151px;
         margin-top: 165px;
-        margin-left: 260px;
+        
     }
     .wrapper__about-me::after {
         height: 122%;
@@ -1365,7 +1385,7 @@ body {
         width: auto;
     }
     .video-slaider {
-        width: 829px;
+        width: 90%;
         height: 450px;
     }
     .foto-reviews {
@@ -1396,9 +1416,17 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    .swiper-button-next {
+        margin-top: 28%;
+        margin-right: 30%;
+    }
+    .swiper-button-prev {
+        margin-top: 28%;
+        margin-left: 30%;
+    }
     .container {
-        max-width: 720px;
+        max-width: 90%;
     }
     .navigation-item {
         margin-left: 11px;
@@ -1423,7 +1451,7 @@ body {
         font-size: 14px;
         margin-left: 3px;
         padding-top: 181px;
-        width: 379px;
+        max-width: 379px;
     }
     .title__about-me {
         font-size: 35px;
@@ -1494,11 +1522,14 @@ body {
         font-size: 35px;
     }
     .video-slaider {
-        width: 727px;
+        
         height: 414px;
     }
+    .title-reviews {
+        padding-top: 0px;
+    }
     .reviews-right {
-        margin-top: 384px;
+        
     }
     .title-reviews {
         font-size: 35px;
@@ -1561,7 +1592,7 @@ body {
     }
     .video-hero {
         height: 352px;
-        width: 537px;
+        width: 400px;
     }
     .hero__text__left {
         padding-bottom: 13px;
@@ -1576,7 +1607,7 @@ body {
         font-size: 14px;
         margin-left: -269px;
         padding-top: 559px;
-        width: 454px;
+        max-width: 454px;
     }
     .wrapper__about-me::after {
         display: none;
@@ -1637,7 +1668,7 @@ body {
         display: none;
     }
     .video-slaider {
-        width: 523px;
+      
         height: 330px;
     }
     .wrapper-reviews {
@@ -1741,7 +1772,7 @@ body {
     }
     .hero__title {
         margin-top: -47px;
-        width: 392px;
+        max-width: 392px;
     }
     .hero__image {
         margin-left: 3px;
@@ -1752,13 +1783,13 @@ body {
     }
     .video-hero {
         height: 250px;
-        width: 378px;
+        width: 300px;
     }
     .hero__text__right {
         font-size: 13px;
         margin-left: -187px;
         padding-top: 355px;
-        width: 383px;
+        max-width: 383px;
     }
     .title__about-me {
         font-size: 23px;
@@ -1831,7 +1862,7 @@ body {
     }
     .video-slaider {
         margin-top: -69px;
-        width: 384px;
+        
         height: 258px;
     }
     .video-container-text {
@@ -1855,7 +1886,7 @@ body {
         font-size: 25px;
     }
     .text-down {
-        margin-right: -44px;
+        margin-right: -10px;
         margin-top: -16px;
         font-size: 14px;
     }
@@ -1878,7 +1909,7 @@ body {
     .subtext-price {
         margin-left: 8px;
         font-size: 14px;
-        width: 380px;
+        width: 300px;
     }
     .title-right {
         margin-left: -141px;
@@ -1889,7 +1920,7 @@ body {
     .text-right {
         font-size: 15px;
         line-height: 17px;
-        width: 377px;
+        width: 300px;
         margin-left: -181px;
     }
     .wrapper-price::after {
@@ -1914,7 +1945,7 @@ body {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 40-0px) {
     .container {
         max-width: 340px;
     }
@@ -1935,12 +1966,12 @@ body {
     }
     .video-hero {
         height: 217px;
-        width: 341px;
+        width: 300px;
     }
     .hero__text__right {
         margin-left: -169px;
         padding-top: 348px;
-        width: 339px;
+        max-width: 339px;
     }
     .title__about-me {
         font-size: 21px;
@@ -1985,7 +2016,7 @@ body {
         display: none;
     }
     .video-slaider {
-        width: 339px;
+      
         height: 211px;
     }
     .swiper-container {
@@ -2062,7 +2093,7 @@ body {
     .hero__text__right {
         margin-left: -145px;
         padding-top: 335px;
-        width: 290px;
+        max-width: 290px;
         font-size: 11px;
     }
     .about-me {
@@ -2125,7 +2156,7 @@ body {
         padding-top: 23px;
     }
     .video-slaider {
-        width: 289px;
+       
         height: 185px;
     }
     .slider-container {
