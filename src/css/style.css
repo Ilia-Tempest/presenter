@@ -380,24 +380,24 @@ body {
     width: 100%;
 }
 .snake-image-1 {
-    width: 100%;
+    width: 25%;
     z-index: 3;
-    margin-left: -30px;
+  
 }
 .snake-image-2 {
-    width: 100%;
+    width: 25%;
     z-index: 1;
-    margin-left: -170px;
+    
 }
 .snake-image-3 {
-    width: 100%;
+    width: 25%;
     z-index: 2;
-    margin-left: -145px;
+  
 }
 .snake-image-4 {
-    width: 100%;
+    width: 25%;
     z-index: 3;
-    margin-left: -158px;
+    
 }
 .foto-pin {
     background: #6A6A6A;
@@ -627,14 +627,15 @@ body {
 .price {
     background: url('/image/Rectangle1.png') center no-repeat;
     padding-bottom: 40px;
+    position: relative;
 }
 .price::before {
     content: '';
     position: absolute;
-    top: 7280px;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 104%;
+    height: 100%;
     background-color: #dededecc;
 }
 .wrapper-price {
@@ -654,7 +655,7 @@ body {
     height: 55%;
     background: #000000;
     margin: auto;
-    margin-top: 7547px;
+    
 }
 .price-left {
     width: 50%;
@@ -755,6 +756,10 @@ body {
 .form__button-text {
     color: #FFFFFF; 
     text-transform: uppercase;
+}
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .footer-nav {
     display: flex;
@@ -901,7 +906,7 @@ body {
         margin-left: -81px;
     }
     .row-snake {
-        width: 37%;
+        width: auto;
     }
     .video-slaider {
         width: 948px;
@@ -911,15 +916,14 @@ body {
         padding-bottom: 0px;
     }
     .price::before {
-        top: 7202px;
-        height: 79%;
+        top: 0px;
     }
     .subtext-price {
         max-width: 465px;
     }
     .wrapper-price::after {
         height: 40%;
-        margin-top: 7557px;
+       
     }
 }
 
@@ -935,18 +939,17 @@ body {
         width: 500px;
     }
     .row-snake {
-        width: 36%;
+        width: auto;
     }
     .price {
         margin-top: -50px;
     }
     .price::before {
-        top: 7267px;
-        height: 72%;
+        top: 0px;
     }
     .wrapper-price::after {
         height: 41%;
-        margin-top: 7476px;
+      
     }
     .wrapper__card-one::before {
         margin-left: 510px;
@@ -1013,7 +1016,7 @@ body {
         height: 135%;
     }
     .row-snake {
-        width: 35%;
+        width: auto;
     }
     .swiper-button-prev {
         margin-top: 291px;
@@ -1042,10 +1045,10 @@ body {
         margin-top: -50px;
     }
     .price::before {
-        top: 7465px;
+        top: 0px;
     }
     .wrapper-price::after {
-       margin-top: 7742px;
+      
     }
     .price-right {
         width: 47%;
@@ -1179,7 +1182,7 @@ body {
         font-size: 16px;
     }
     .row-snake {
-        width: 37%;
+        width: auto;
     }
     .video-slaider {
         width: 845px;
@@ -1206,7 +1209,7 @@ body {
         margin-top: -80px;
     }
     .price::before {
-        top: 6910px;
+        top: 0px;
     }
     .price-subtitle {
         font-size: 95px;
@@ -1230,7 +1233,7 @@ body {
         width: 49%;
     }
     .wrapper-price::after {
-        margin-top: 7199px;
+      
     }
     .form-title {
         font-size: 35px;
@@ -1277,10 +1280,10 @@ body {
         margin-left: -115px;
     }
     .price::before {
-        top: 6876px;
+        top: 0px;
     }
     .wrapper-price::after {
-        margin-top: 7160px;
+        
     }
 }
 
@@ -1359,7 +1362,7 @@ body {
         height: 122%;
     }
     .row-snake {
-        width: 39%;
+        width: auto;
     }
     .video-slaider {
         width: 829px;
@@ -1370,10 +1373,10 @@ body {
         width: 138%;
     }
     .price::before {
-        top: 6728px;
+        top: 0px;
     }
     .wrapper-price::after {
-        margin-top: 7012px;
+       
     }
     .form-title {
         font-size: 30px;
@@ -1485,7 +1488,7 @@ body {
         font-size: 15px;
     }
     .row-snake {
-        width: 41%;
+        width: auto;
     }
     .title-slaider {
         font-size: 35px;
@@ -1528,10 +1531,10 @@ body {
         font-size: 16px;
     }
     .price::before {
-        top: 6383px;
+        top: 0px;
     }
     .wrapper-price::after {
-        margin-top: 6662px;
+      
     }
     .price-right {
         width: 46%;
@@ -1617,7 +1620,7 @@ body {
         width: 300px;
     }
     .row-snake {
-        width: 46%;
+        width: auto;
     }
     .pin-image {
         margin-top: -33px;
@@ -1681,10 +1684,10 @@ body {
         line-height: 23px;
     }
     .price::before {
-        top: 6555px;
+        top: 0px;
     }
     .wrapper-price::after {
-        margin-top: 6741px;
+     
     }
     .form-title {
         font-size: 27px;
@@ -1713,7 +1716,7 @@ body {
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
     .container {
         max-width: 380px;
     }
@@ -1807,7 +1810,7 @@ body {
         font-size: 14px;
     }
     .row-snake {
-        width: 55%;
+        width: auto;
     }
     .title-slaider {
         font-size: 30px;
@@ -1893,8 +1896,7 @@ body {
         display: none;
     }
     .price::before {
-        top: 5406px;
-        height: 72%;
+        top: 0px;
     }
     .form-title {
         font-size: 25px;
@@ -1971,7 +1973,7 @@ body {
         width: 341px;
     }
     .row-snake {
-        width: 58%;
+        width: auto;
     }
     .swiper-pagination {
         margin-bottom: 20px;
@@ -2018,8 +2020,7 @@ body {
         width: 295px;
     }
     .price::before {
-        top: 4749px;
-        height: 77%;
+        top: 0px;
     }
     .form-title {
         font-size: 20px;
@@ -2115,7 +2116,7 @@ body {
         padding-top: 143px;
     }
     .row-snake {
-        width: 64%;
+        width: auto;
     }
     .pin-image {
         margin-top: -9px;
@@ -2180,7 +2181,7 @@ body {
         margin-left: -148px;
     }
     .price::before {
-        top: 4225px;
+        top: 0px;
     }
     .form {
         padding-bottom: 0px;
