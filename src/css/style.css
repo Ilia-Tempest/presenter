@@ -1747,7 +1747,7 @@ body {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 590px) {
     .container {
         max-width: 380px;
     }
@@ -1788,7 +1788,7 @@ body {
     .hero__text__right {
         font-size: 13px;
         margin-left: -187px;
-        padding-top: 355px;
+        padding-top: 450px;
         max-width: 383px;
     }
     .title__about-me {
@@ -1869,7 +1869,7 @@ body {
         font-size: 12px;
     }
     .foto-reviews {
-        margin-left: -57px;
+        margin-left: -100px;
     }
     .text-reviews {
         font-size: 11px;
@@ -1945,7 +1945,7 @@ body {
 }
 
 
-@media (max-width: 40-0px) {
+@media (max-width: 440px) {
     .container {
         max-width: 340px;
     }
@@ -1983,25 +1983,25 @@ body {
         font-size: 13px;
     }
     .wrapper__card-one {
-        width: 341px;
+        width: 300px;
     }
     .wrapper__card-two {
         margin-left: -171px;
-        width: 341px;
+        width: 300px;
     }
     .wrapper__card-three {
-       width: 341px;
+       width: 300px;
     }
     .wrapper__card-four {
         margin-left: -171px;
-        width: 341px;
+        width: 300px;
     }
     .wrapper__card-five {
-        width: 341px;
+        width: 300px;
     }
     .wrapper__card-six {
         margin-left: -171px;
-        width: 341px;
+        width: 300px;
     }
     .row-snake {
         width: auto;
@@ -2066,9 +2066,28 @@ body {
 
 }
 
+@media (max-width: 388px) {
+    .hero__text__right {
+        padding-top: 400px;
+    }
+    .form__input {
+        max-width: 90%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .text-right {
+        width: auto;
+    }
+    .hero__title {
+        width: auto;
+    }
+    .container {
+        max-width: 94%;
+    }
+}
 
-
-@media (max-width: 320px) {
+@media (max-width: 374px) {
     .container {
         max-width: 290px;
     }
