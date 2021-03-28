@@ -475,6 +475,15 @@ body {
 .swiper-pagination {
     color: #C9C9C9;
 }
+.swiper-pagination__one {
+    bottom: 18%;
+}
+.swiper-button-next__one {
+   margin-top: 25%;
+}
+.swiper-button-prev__one {
+    margin-top: 25%;
+ }
 .video-container {
     max-width: 100%;
     margin-top: 100px;
@@ -763,6 +772,8 @@ body {
     max-width: 520px;
     background: #000000;
     border-radius: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .form__button-text {
     color: #FFFFFF; 
@@ -1035,12 +1046,18 @@ body {
         width: auto;
     }
     .swiper-button-prev {
-        margin-top: 291px;
+      
         margin-left: 315px;
     }
     .swiper-button-next {
-        margin-top: 291px;
+      
         margin-right: 315px;
+    }
+    .swiper-pagination__one {
+        bottom: 21%;
+    }
+    .swiper-pagination__two {
+      bottom: 8%;
     }
     .title-reviews {
         font-size: 45px;
@@ -1305,6 +1322,35 @@ body {
 
 
 @media (max-width: 862px) {
+    
+    .wrapper__about-me::after {
+        display: none;
+    }
+    .wrapper__card-one::before {
+        display: none;
+    }
+    .wrapper__card-two::before {
+        display: none;
+    }
+    .wrapper__card-three::before {
+        display: none;
+    }
+    .wrapper__card-four::before {
+        display: none;
+    }
+    .wrapper__card-five::before {
+        display: none;
+    }
+    .wrapper__card-six::before {
+        display: none;
+    }
+
+
+   
+
+
+
+
     .reviews-right {
         width: 50%;
         margin-top: 50%;
@@ -1394,6 +1440,9 @@ body {
     }
     .price::before {
         top: 0px;
+    }
+    .swiper-pagination__one {
+        bottom: 19%;
     }
     .wrapper-price::after {
        
@@ -1577,7 +1626,7 @@ body {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 590px) {
     .container {
         max-width: 540px;
     }
@@ -2007,7 +2056,7 @@ body {
         width: auto;
     }
     .swiper-pagination {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .swiper-button-next {
         display: none;
@@ -2021,6 +2070,9 @@ body {
     }
     .swiper-container {
         padding-bottom: 0px;
+    }
+    .swiper-pagination__one {
+        margin-bottom: 0px;
     }
     .reviews-right {
         margin-top: 38px;
