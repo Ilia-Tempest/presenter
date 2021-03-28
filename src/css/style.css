@@ -141,6 +141,8 @@ body {
     font-style: normal;
     font-size: 20px;
     line-height: 23, 87px;
+    z-index: 5;
+    position: relative;
 }
 .about-me {
     background-color: #252525;
@@ -1131,6 +1133,8 @@ body {
     }
     .video-hero {
         width: 466px;
+        z-index: 10;
+        position: relative;
     }
     .title__about-me {
         font-size: 45px;
